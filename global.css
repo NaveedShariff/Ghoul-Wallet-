@@ -1,0 +1,58 @@
+:root {
+  /* fonts */
+  --font-nunito: Nunito;
+  --font-bebas-neue: "Bebas Neue";
+
+  /* font sizes */
+  --font-size-base: 10px;
+  --font-size-lg: 11px;
+  --font-size-xl: 12px;
+  --font-size-2xl: 13px;
+  --font-size-3xl: 14px;
+  --font-size-4xl: 15px;
+  --font-size-5xl: 16px;
+  --font-size-6xl: 20px;
+  --font-size-7xl: 34px;
+  --font-size-8xl: 36px;
+
+  /* Colors */
+  --black: #000;
+  --white: #fff;
+  --color-gray-100: #282828;
+  --color-gray-200: #012500;
+  --color-gray-300: rgba(255, 255, 255, 0.12);
+  --color-gray-400: rgba(255, 255, 255, 0.1);
+  --color-lime: #04dc00;
+  --color-darkorchid: #b359fa;
+  --color-darkslategray: #4b4b4b;
+  --color-orangered: #d91f05;
+
+  /* Gaps */
+  --gap-3xs: 3px;
+  --gap-2xs: 4px;
+  --gap-xs: 6px;
+  --gap-sm: 8px;
+  --gap-md: 12px;
+  --gap-lg: 16px;
+  --gap-xl: 24px;
+  --gap-2xl: 30px;
+  --gap-3xl: 64px;
+
+  /* Paddings */
+  --padding-2xs: 4px;
+  --padding-xs: 5px;
+  --padding-sm: 6px;
+  --padding-md: 8px;
+  --padding-lg: 10px;
+  --padding-xl: 12px;
+
+  /* border radiuses */
+  --br-3xs: 4px;
+  --br-2xs: 6px;
+  --br-xs: 12px;
+  --br-sm: 14px;
+  --br-md: 18px;
+  --br-lg: 32px;
+  --br-xl: 51px;
+  --br-2xl: 250px;
+}

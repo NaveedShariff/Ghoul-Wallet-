@@ -1,0 +1,127 @@
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: 0 12px 20px -12px rgb(0 0 0/35%);
+  }
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+.get-started {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.5px;
+  font-family: var(--font-nunito);
+  color: var(--black);
+  text-align: center;
+  opacity: 0.8;
+}
+.arrow-back-24px-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.get-started-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 13px 18px;
+  background-color: var(--color-darkorchid);
+  position: absolute;
+  top: 739px;
+  left: 32px;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 193px;
+}
+.get-started-parent:hover {
+  background-color: #9000ff;
+  animation: 1s step-start 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.ghoul-fantom-wallet {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 110%;
+  font-weight: 600;
+}
+.its-secure-and {
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  width: 347px;
+  opacity: 0.8;
+}
+.ghoul-fantom-wallet-parent {
+  position: absolute;
+  top: 577px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.ghoul-wallet {
+  position: absolute;
+  top: 40px;
+  left: 24px;
+  font-size: 80px;
+  letter-spacing: 0.5px;
+  font-family: var(--font-bebas-neue);
+  display: inline-block;
+  width: 439px;
+  height: 97px;
+}
+.ellipse-icon,
+.group-child3 {
+  position: absolute;
+  top: 45.02px;
+  left: 64.18px;
+  width: 259.54px;
+  height: 260.81px;
+}
+.group-child3 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-300);
+  backdrop-filter: blur(80px);
+  width: 375px;
+  height: 407px;
+  overflow: hidden;
+}
+.ghoul-wallet-symbol-removebg-p-icon {
+  position: absolute;
+  top: 0;
+  left: 47px;
+  width: 282px;
+  height: 435px;
+  object-fit: cover;
+}
+.ellipse-parent {
+  position: absolute;
+  top: 142px;
+  left: 18px;
+  width: 375px;
+  height: 435px;
+}
+.page-1 {
+  position: relative;
+  border-radius: var(--br-lg);
+  background-color: var(--black);
+  width: 100%;
+  height: 823px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-8xl);
+  color: var(--white);
+  font-family: var(--font-nunito);
+}

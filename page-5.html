@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./page-5.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,700;1,200;1,600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bebas Neue:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="page-5">
+      <div class="frame-parent">
+        <button class="keyboard-backspace-24px-parent" id="frameButton">
+          <img
+            class="keyboard-backspace-24px-icon"
+            alt=""
+            src="public/keyboard-backspace-24px.svg"
+          /><img
+            class="favorite-border-24px-icon"
+            alt=""
+            src="public/favorite-border-24px.svg"
+          />
+        </button>
+        <div class="frame-group">
+          <div class="frame-container">
+            <div class="ret-2-parent">
+              <img class="ret-2-icon" alt="" src="public/ret-2@2x.png" />
+              <div class="fantom-energy-ret-parent">
+                <div class="fantom-energy">Fantom Energy / RET</div>
+                <div class="wrapper"><div class="div">$0.077</div></div>
+              </div>
+            </div>
+            <div class="arrow-drop-up-24px-parent">
+              <img
+                class="arrow-drop-up-24px-icon"
+                alt=""
+                src="public/arrow-drop-up-24px.svg"
+              />
+              <div class="div">11.75%</div>
+            </div>
+          </div>
+          <div class="rectangle-parent">
+            <div class="frame-child"></div>
+            <div class="frame-div">
+              <div class="popularity-parent">
+                <b class="popularity">Popularity</b>
+                <div class="k">#1901</div>
+              </div>
+              <div class="popularity-parent">
+                <b class="popularity">Market Cap</b>
+                <div class="k">$32.4 K</div>
+              </div>
+              <div class="popularity-parent">
+                <b class="popularity">Volume</b>
+                <div class="k">$20.6 K</div>
+              </div>
+            </div>
+            <div class="frame-child"></div>
+          </div>
+        </div>
+      </div>
+      <b class="sell">SELL</b
+      ><img class="page-5-child" alt="" src="public/ellipse-4.svg" /><img
+        class="page-5-item"
+        alt=""
+        src="public/ellipse-5.svg"
+      />
+      <div class="rectangle-group">
+        <div class="group-child"></div>
+        <b class="your-order-has"
+          >YOUR ORDER HAS BEEN SUCCESSFULLY COMPLETED
+        </b>
+      </div>
+    </div>
+
+    <script>
+      var frameButton = document.getElementById("frameButton");
+      if (frameButton) {
+        frameButton.addEventListener("click", function (e) {
+          window.location.href = "./page-2.html";
+        });
+      }
+      </script>
+  </body>
+</html>
